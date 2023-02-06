@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:pink
+}
+
+header{
+    position:relative;
+}
+
+.About{
+    position:absolute;
+    color:white;
+    margin:auto;
+    text-align: end;
+    text-shadow: 1px 1px 2px red;
+}
+
+.Past_Projects{
+    position:absolute;
+    bottom: 12px;
+    top: 25px;
+    color:white;
+    margin:auto;
+    text-align: end;
+    text-shadow: 1px 1px 2px red;
+}
+
+.Contact{
+    position:absolute;
+    bottom: 16px;
+    top: 50px;
+    color:white;
+    margin:auto;
+    text-align: end;
+    text-shadow: 1px 1px 2px red;
+}
+
+header h1{
+    font-size: xx-large;
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    display: block;
+    width: 25%;
+    text-shadow: 1px 1px 2px white;
+    color: red;
+    text-decoration: solid;
+    text-align: center;
+    border-style: solid;
+    border-color:white;
+}
+
+img {
+    display: block;
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
