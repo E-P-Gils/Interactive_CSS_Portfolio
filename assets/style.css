@@ -1,3 +1,5 @@
+/* The * universal selector section applies style and structure changes to the entire webpage, while the header and body deal with the unseen portions of th webpage and the visible page respectively*/
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -15,6 +17,8 @@ header{
 a{
     font-size:x-large;
 }
+
+/*These sections provide styling and interactivity to the elements nested in the header photo(pink clouds)*/
 
 .About{
     position:absolute;
@@ -56,6 +60,8 @@ a{
     color:hotpink;
 }
 
+/*The following provides styling and structural choices to the pink clouds header image as well as my name at the top of the page*/
+
 img {
     display: block;
     height: 80px;
@@ -79,6 +85,8 @@ header h1{
     border-color:white;
 }
 
+/*A class was added for the profile picture here to differentiate the styling choices for the profile picure from those of the pink clouds image*/
+
 .Profile_Picture img{
     margin: auto;
     display: block;
@@ -88,6 +96,8 @@ header h1{
     width: 275px;
     position:relative
 }
+
+/*The following provides styling for the "About Me" section. As it is not interactive or linked to anything it requires minimal portions of CSS.*/
 
 .About_Me{
     position:relative;
@@ -101,6 +111,9 @@ header h1{
     border-style: solid;
     border-color:white;
 }
+
+/*The following portions provide structure and style to the "Past Projects" section. As this is the largest part of the webpage with the most interactivity and links, a large amount of the CSS file was dedicated to it.*/
+
 .Projects{
     margin: auto;
     background-color: palevioletred;
@@ -249,6 +262,8 @@ header h1{
     border-style:solid;
     border-color:red;
 }
+
+/*This final section provides style and structure to the footer/contact me section. As the resume is interactive a decent amount of work as put into it.*/
 
 footer{
     position:relative;
