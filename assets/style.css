@@ -12,12 +12,20 @@ header{
     position:relative;
 }
 
+a{
+    font-size:x-large;
+}
+
 .About{
     position:absolute;
     color:white;
     margin:auto;
     text-align: end;
     text-shadow: 1px 1px 2px red;
+}
+
+.About:hover{
+    color:hotpink;
 }
 
 .Past_Projects{
@@ -30,6 +38,10 @@ header{
     text-shadow: 1px 1px 2px red;
 }
 
+.Past_Projects:hover{
+    color:hotpink;
+}
+
 .Contact{
     position:absolute;
     bottom: 16px;
@@ -38,6 +50,18 @@ header{
     margin:auto;
     text-align: end;
     text-shadow: 1px 1px 2px red;
+}
+
+.Contact:hover{
+    color:hotpink;
+}
+
+img {
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header h1{
@@ -55,10 +79,201 @@ header h1{
     border-color:white;
 }
 
-img {
+.Profile_Picture img{
+    margin: auto;
     display: block;
-    height: 300px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    height:305px;
+    width: 275px;
+    position:relative
+}
+
+.About_Me{
+    position:relative;
+    margin: auto;
+    background-color: hotpink;
+    display: block;
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    border-style: solid;
+    border-color:white;
+}
+.Projects{
+    margin: auto;
+    background-color: palevioletred;
+    display: block;
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    border-style: solid;
+    border-color:white;
+}
+
+.Main_Project{
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:red;
+}
+
+.Main_Project a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.Main_Project a:hover{
+    color:hotpink;
+}
+
+.Main_Project:hover{
+    background-color: pink; 
+}
+
+.Main_Project img{
+    height:350px;
+    width:60%;
+    border-style:solid;
+    border-color:red;
+}
+
+.Side_Projects{
+    display:flex;
+}
+
+.Chat{
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:red;
+    width:25%;
+}
+
+.Chat:hover{
+    background-color: pink;
+}
+
+.Chat a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.Chat a:hover{
+    color:hotpink;
+}
+
+.Facebook{
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:red;   
+    width: 25%;
+}
+
+.Facebook:hover{
+    background-color: pink;
+}
+
+.Facebook a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.Facebook a:hover{
+    color:hotpink;
+}
+
+.Google{
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:red;
+    width: 25%; 
+}
+
+.Google:hover{
+    background-color: pink;
+}
+
+.Google a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.Google a:hover{
+    color:hotpink;
+}
+
+.Ultron{
+    margin: auto;
+    background-color: hotpink;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:red;
+    width: 25%;
+}
+
+.Ultron:hover{
+    background-color: pink;
+}
+
+.Ultron a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.Ultron a:hover{
+    color:hotpink;
+}
+
+.Side_Projects img{
+    height:200px;
+    width:200px;
+    border-style:solid;
+    border-color:red;
+}
+
+footer{
+    position:relative;
+    margin: auto;
+    background-color: pink;
+    display: block;
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    border-style: solid;
+    border-color:white;
+}
+
+footer h2{
+    display:inline-block;
+}
+
+.Resume a{
+    text-shadow: 1px 1px 2px red;
+    color: white;
+    text-decoration: solid;
+    text-align: center;  
+}
+
+.Resume a:hover{
+    color:hotpink;
 }
